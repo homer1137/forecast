@@ -20,7 +20,7 @@ export default function Home() {
   const [loader, setLoader] = useState(false);
   const [forecast, setForecast] = useState([]);
 
-  const debouncedQuery = useDebounce(query, 1500)
+  const debouncedQuery = useDebounce(query, 500)
 
 
 
